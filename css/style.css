@@ -13,6 +13,7 @@ body {
     align-items: center;    
     justify-content: center;
     font-family: sans-serif;
+    background-color: #0c0c0c;
     color: white;
 }
 
@@ -50,6 +51,7 @@ button {
     margin-left: 1rem;
     padding: 2rem;
     text-align: center;
-    color: black;
-    border: 5px solid black;
+    color: cyan;
+    border: 5px solid cyan;
+    height: fit-content;
 }
