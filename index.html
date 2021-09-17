@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Space Invader</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="game-area">
+            <header>
+                <p class="score">Score: 0</p>
+    
+                <button type="button" onclick="pause()">Pause</button>
+            </header>
+    
+            <canvas width="800" height="480"></canvas>
+        </div>
+
+        <div class="highscore">
+            <h1>High Score</h1>
+
+            <h2 class="high"></h2>
+        </div>
+    </div>
+
+    <script src="src/Bullet.js"></script>
+    <script src="src/Player.js"></script>
+    <script src="src/Alien.js"></script>
+    <script src="src/Game.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>
